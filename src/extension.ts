@@ -18,19 +18,16 @@ function generateFileContent(className: string): string {
 import 'package:provider/provider.dart';
 
 class ${className} extends StatelessWidget {
-
-  const ${className}({Key? key}) : super(key: key);
+const ${className}({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return AppProvider(
       provider: ${className}Provider(),
       onReady: (p) {
-        p.onStart(add);
       },
       child: Consumer<${className}Provider>(builder: (_, provider, __) {
         return provider.widget.build(
-          
             builder: (data) {
               return Scaffold(
               );
