@@ -2,44 +2,10 @@
 
 ## Features
 
-Describe the key features of your extension. Include any relevant screenshots or animations to showcase how the extension works.
-
-For example, you can add a screenshot:
-
-## Requirements
-
-List any requirements or dependencies that users need to install or configure before using your extension.
-
-## Extension Settings
-
-If your extension contributes any settings, document them here. For instance:
-
-This extension contributes the following settings:
-
-- `myExtension.enable`: Enable/disable this extension.
-- `myExtension.thing`: Set to `blah` to do something.
+- `ctr + shift + p`: to `open command` to do something.
+- `x state`: to pick folder and input file name example: `home_page`. it will generate `home_page.dart` and `provider/home_page.dart`.
 
 ## Known Issues
-
-Document any known issues or limitations with your extension. This can help users understand potential challenges and avoid duplicate issue reports.
-
-## Release Notes
-
-Include release notes to inform users about updates to your extension.
-
-### 1.0.0
-
-- Initial release of the "trymenghuy_state" extension.
-
-### 1.0.1
-
-- Fixed issue #123.
-
-### 1.1.0
-
-- Added features A, B, and C.
-
----
 
 ## Following Extension Guidelines
 
